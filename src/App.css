@@ -1,9 +1,31 @@
+@import './index.css';
+
 body {
   font-family: monospace;
-  background-color: rgb(236 253 245);
+  background-color: var(--primary-background);
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 3rem;
+  text-align: center;
+  color: var(--primary-text);
+}
+
+p {
   text-align: center;
 }
+
+.link-container {
+  display:flex;
+  justify-content: center;
+}
+
+a {
+  background-color: var(--primary-link-button);
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 0.5rem 1rem; 
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
