@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
---primary-background: #E7EBE0FF;
+--primary-background: #f0f2ec;
 --primary-text: #7DB46CFF;
 --primary-link-button: #ABD6DFFF;
 }
