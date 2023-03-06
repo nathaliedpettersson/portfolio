@@ -4,8 +4,8 @@ import { useState } from "react";
 
 // Create navbar with logo and a-tags to Homepage, Contact.tsx and CV.tsk
 // Import in Layout.tsx file to be displayed on all pages (should be sticky to the top)
+// Look into fixing a hamburger menu for mobile version
 const Header = () => {
-  // const [navbar, setNavbar] = useState(false);
 
   return (
     <div className="shadow bg-white">
