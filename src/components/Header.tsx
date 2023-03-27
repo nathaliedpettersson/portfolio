@@ -1,6 +1,5 @@
-import React from "react";
+
 import logo from "../assets/images/logo1.png";
-import { useState } from "react";
 
 // Create navbar with logo and a-tags to Homepage, Contact.tsx and CV.tsk
 // Import in Layout.tsx file to be displayed on all pages (should be sticky to the top)
@@ -14,17 +13,17 @@ const Header = () => {
         <nav>
           <ul className="flex items-center gap-8">
             <li>
-              <a className="bg-white uppercase border-none text-xl" href="">
+              <a className="bg-white uppercase border-none text-xl" href="/">
                 Home
               </a>
             </li>
             <li>
-              <a className="bg-white uppercase border-none text-xl" href="">
+              <a className="bg-white uppercase border-none text-xl" href="/contact">
                 Contact
               </a>
             </li>
             <li>
-              <a className="bg-white uppercase border-none text-xl" href="">
+              <a className="bg-white uppercase border-none text-xl" href="/CV">
                 CV
               </a>
             </li>
