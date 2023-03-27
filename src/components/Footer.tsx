@@ -1,4 +1,4 @@
-import React from "react";
+
 
 // Display footer as sticky at the bottom of all pages
 // Import to Layout.tsx
