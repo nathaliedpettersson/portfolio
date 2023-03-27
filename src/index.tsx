@@ -5,6 +5,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Layout from './pages/Layout';
+import Contact from './pages/Contact';
+import CV from './pages/CV';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -14,6 +16,8 @@ root.render(
  <Routes>
   <Route path="/" element={<Layout />}>
 <Route index element={<App />}></Route>
+<Route path="/contact" element={<Contact />}></Route>
+<Route path="/CV" element={<CV />}></Route>
 
   </Route>
  </Routes>
