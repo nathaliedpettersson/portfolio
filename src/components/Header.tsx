@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/images/logo1.png";
+import logo from '../assets/images/logo1.png';
 import { useState } from "react";
 
 // Create navbar with logo and a-tags to Homepage, Contact.tsx and CV.tsk
