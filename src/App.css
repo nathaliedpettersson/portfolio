@@ -2,8 +2,18 @@
 
 body {
   font-family: monospace;
-  background-color: var(--primary-background);
+  /* background-color: var(--primary-background); */
 }
+
+.wrapper {
+  z-index: 1;
+}
+
+#tsparticles {
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+  }
 
 h1 {
   font-size: 3rem;
@@ -13,7 +23,6 @@ h1 {
 
 p {
   text-align: center;
-  color: #f1f1f1;
 }
 
 .link-container {
