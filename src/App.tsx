@@ -1,6 +1,9 @@
+import Particles from "react-tsparticles";
+import loadFull  from "react-tsparticles";
+import { Link } from 'react-scroll';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <h1>Portfolio in progress. Stay tuned for updates!</h1>
