@@ -5,70 +5,96 @@ import './App.css';
 
 const App = () => {
 
-  const particlesInit = async (main:any) => {
+  const particlesInit = async (main: any) => {
     await loadFull(main);
   }
 
+  // Import logos as images in a folder later 
+  const githubLogo = "https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png";
+  const linkedinLogo = "https://cdn-icons-png.flaticon.com/512/61/61109.png";
+
   return (
     <div className="App">
-         <Particles
-      id="tsparticles"
-      init={particlesInit}
-      options={{
-        background: {
-          color: "f1f1f1",
-        },
-        fpsLimit: 20,
-        particles: {
-          shape: {
-            type: "circle",
+      <Particles
+        id="tsparticles"
+        init={particlesInit}
+        options={{
+          background: {
+            color: "f1f1f1",
           },
-          size: {
-            random: {
-              enable: true,
-              minimumValue: 0.5,
+          fpsLimit: 20,
+          particles: {
+            shape: {
+              type: "circle",
             },
-            value: 1.4,
-          },
-          color: {
-            value: "rgb(0,28,28)", 
-          },
-          number: {
-            density: {
-              enable: true,
-              area: 1080,
+            size: {
+              random: {
+                enable: true,
+                minimumValue: 0.5,
+              },
+              value: 1.4,
             },
-            limit: 0,
-            value: 800,
-          },
-          opacity: {
-            animation: {
-              enable: true,
-              minimumValue: 0.5,
-              speed: 1.2,
-              sync: false,
+            color: {
+              value: "rgb(0,28,28)",
             },
-            random: {
-              enable: true,
-              minimumValue: 0.1,
+            number: {
+              density: {
+                enable: true,
+                area: 1080,
+              },
+              limit: 0,
+              value: 800,
             },
-            value: 1,
-          },
-          interactivity: {
-            detectsOn: "canvas",
-            events: {
-              resize: true,
+            opacity: {
+              animation: {
+                enable: true,
+                minimumValue: 0.5,
+                speed: 1.2,
+                sync: false,
+              },
+              random: {
+                enable: true,
+                minimumValue: 0.1,
+              },
+              value: 1,
+            },
+            interactivity: {
+              detectsOn: "canvas",
+              events: {
+                resize: true,
+              },
             },
           },
-        },
-      }} 
+        }}
       />
       <div className="wrapper">
-      <h1>Portfolio in progress. Stay tuned for updates!</h1>
-      <p>Take a look at my GitHub profile while waiting...</p>
-      <div className="link-container">
-      <a href="https://github.com/nathaliedpettersson" target="_blank">REPOS</a>
-      </div>
+        <header className="nav">
+          <nav className="nav-container-actions">
+            <ul>
+              <li>
+                <Link activeClass="active" smooth spy to="about">
+                  About Me
+                </Link>
+              </li>
+              <li>
+                <Link activeClass="active" smooth spy to="projects">
+                  Projects
+                </Link>
+              </li>
+              <li>
+                <Link activeClass="active" smooth spy to="contact">
+                  Contact
+                </Link>
+              </li>
+            </ul>
+          </nav>
+          <a href="https://github.com/nathaliedpettersson" target="_blank"><img className="github-logo" src={githubLogo}></img></a>
+          <a href="https://www.linkedin.com/in/nathalie-developer/" target="_blank"><img className="linkedin-logo" src={linkedinLogo}></img></a>
+        </header>
+
+        <section id="about">Hi, I am Nathalie. Portfolio is under construction but please visit my GitHub repos for now.</section>
+        <section id="projects"></section>
+        <section id="contact"></section>
       </div>
     </div>
   );
