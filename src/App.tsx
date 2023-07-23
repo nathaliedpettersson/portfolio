@@ -2,7 +2,6 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { Link } from 'react-scroll';
 import './App.css';
-import { Container } from "react-dom";
 
 const App = () => {
 
@@ -10,16 +9,11 @@ const App = () => {
     await loadFull(main);
   }
 
-  // const particlesLoaded = (container: any) => {
-  //   console.log(container);
-  // };
-
   return (
     <div className="App">
          <Particles
       id="tsparticles"
       init={particlesInit}
-      // loaded={particlesLoaded}
       options={{
         background: {
           color: "f1f1f1",
