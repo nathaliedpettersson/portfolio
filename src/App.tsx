@@ -1,5 +1,7 @@
+import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import type { Container } from 'tsparticles-engine';
 import { Link } from 'react-scroll';
 import './App.css';
 
@@ -8,6 +10,10 @@ const App = () => {
   const particlesInit = async (main: any) => {
     await loadFull(main);
   }
+
+  const particlesLoaded = useCallback(async (container: Container | undefined) => {
+    console.log(container);
+  }, []);
 
   // Import logos as images in a folder later 
   const githubLogo = "https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png";
@@ -18,14 +24,15 @@ const App = () => {
       <Particles
         id="tsparticles"
         init={particlesInit}
+        loaded={particlesLoaded}
         options={{
           background: {
-            color: "f1f1f1",
+            color: "FFFFFF",
           },
           fpsLimit: 20,
           particles: {
             shape: {
-              type: "circle",
+              type: "polygon",
             },
             size: {
               random: {
@@ -49,7 +56,7 @@ const App = () => {
               animation: {
                 enable: true,
                 minimumValue: 0.5,
-                speed: 1.2,
+                speed: 1,
                 sync: false,
               },
               random: {
