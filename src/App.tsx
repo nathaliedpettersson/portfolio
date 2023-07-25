@@ -79,24 +79,24 @@ const App = () => {
           <nav className="nav-container-actions">
             <ul>
               <li>
-                <Link activeClass="active" smooth spy to="about">
+                <Link activeClass="active" smooth spy to="about" aria-label="About">
                   About Me
                 </Link>
               </li>
               <li>
-                <Link activeClass="active" smooth spy to="projects">
+                <Link activeClass="active" smooth spy to="projects" aria-label="Projects">
                   Projects
                 </Link>
               </li>
               <li>
-                <Link activeClass="active" smooth spy to="contact">
+                <Link activeClass="active" smooth spy to="contact" aria-label="Contact">
                   Contact
                 </Link>
               </li>
             </ul>
           </nav>
-          <a href="https://github.com/nathaliedpettersson" target="_blank"><img className="github-logo" src={githubLogo}></img></a>
-          <a href="https://www.linkedin.com/in/nathalie-developer/" target="_blank"><img className="linkedin-logo" src={linkedinLogo}></img></a>
+          <a href="https://github.com/nathaliedpettersson" target="_blank" aria-label="Github account"><img className="github-logo" src={githubLogo} alt="GitHub logo"></img></a>
+          <a href="https://www.linkedin.com/in/nathalie-developer/" target="_blank" aria-label="Linkedin profile"><img className="linkedin-logo" src={linkedinLogo} alt="Linkedin logo"></img></a>
         </header>
 
         <section id="about">Hi, I am Nathalie. Portfolio is under construction but please visit my GitHub repos for now.</section>
