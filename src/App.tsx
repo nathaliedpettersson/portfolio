@@ -3,6 +3,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import type { Container } from 'tsparticles-engine';
 import { Link } from 'react-scroll';
+import About from "./components/About";
 import './App.css';
 
 const App = () => {
@@ -80,7 +81,7 @@ const App = () => {
             <ul>
               <li>
                 <Link activeClass="active" smooth spy to="about" aria-label="About">
-                  About Me
+                  About
                 </Link>
               </li>
               <li>
@@ -99,7 +100,7 @@ const App = () => {
           <a href="https://www.linkedin.com/in/nathalie-developer/" target="_blank" aria-label="Linkedin profile"><img className="linkedin-logo" src={linkedinLogo} alt="Linkedin logo"></img></a>
         </header>
 
-        <section id="about">Hi, I am Nathalie. Portfolio is under construction but please visit my GitHub repos for now.</section>
+        <section id="about"><About /></section>
         <section id="projects"></section>
         <section id="contact"></section>
       </div>
