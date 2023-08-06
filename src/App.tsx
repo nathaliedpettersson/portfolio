@@ -4,6 +4,7 @@ import { loadFull } from "tsparticles";
 import type { Container } from 'tsparticles-engine';
 import { Link } from 'react-scroll';
 import About from "./components/About";
+import Projects from "./components/Projects";
 import './App.css';
 
 const App = () => {
@@ -28,7 +29,7 @@ const App = () => {
         loaded={particlesLoaded}
         options={{
           background: {
-            color: "FFFFFF",
+            color: "172426",
           },
           fpsLimit: 20,
           particles: {
@@ -43,7 +44,7 @@ const App = () => {
               value: 1.4,
             },
             color: {
-              value: "rgb(0,28,28)",
+              value: "D9D0D9",
             },
             number: {
               density: {
@@ -101,7 +102,7 @@ const App = () => {
         </header>
 
         <section id="about"><About /></section>
-        <section id="projects"></section>
+        <section id="projects"><Projects /></section>
         <section id="contact"></section>
       </div>
     </div>
