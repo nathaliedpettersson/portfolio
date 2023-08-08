@@ -29,7 +29,7 @@ const App = () => {
         loaded={particlesLoaded}
         options={{
           background: {
-            color: "172426",
+            color: "ffffff",
           },
           fpsLimit: 20,
           particles: {
@@ -44,7 +44,7 @@ const App = () => {
               value: 1.4,
             },
             color: {
-              value: "D9D0D9",
+              value: "d2b48c",
             },
             number: {
               density: {
