@@ -19,22 +19,24 @@
     object-fit: cover;
 }
 
-.project-card-content {
+.project-card-tag {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 28px;
+    flex-direction: row;
+    padding-top: 1.8rem;
+    padding-left: 1.8rem;
 }
 
 .tag {
-    background: #cccccc;
-    border-radius: 50px;
-    font-size: 12px;
-    color: #fff;
-    padding: 2px 10px;
+    border-radius: 30px;
+    font-size: 0.75rem;
+    color: #ffffff;
+    padding: 0.125rem 0.625rem;
     text-transform: uppercase;
-    cursor: pointer;
+    margin-left: 0.3rem;
+}
+
+.tag:first-child {
+    margin-left: 0;
 }
 
 .tag-teal {
@@ -55,5 +57,18 @@ background-color: #F77D5E;
 
 .tag-yellow {
 background-color: #E0C84A;
+}
+
+.tag-purple {
+    background-color: #800080;
+}
+
+.tag-orange {
+    background-color: #FF5733;
+}
+
+.project-card-content {
+    display: flex;
+    padding: 0 1.8rem;
 }
 
