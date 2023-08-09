@@ -3,6 +3,13 @@
 .container {
     z-index: 1;
     width: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
@@ -10,13 +17,31 @@ h1 {
 }
 
 h1,
-h3 {
+.about-text {
     margin: 0;
     color: #0047ab;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
 
-h3 {
+.about-text {
     font-size: 2rem;
+}
+
+.profile-image {
+    width: 27vw;
+    height: 60vh;
+    margin-left: 5rem;
+}
+
+@media screen and (max-width: 425px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .profile-image {
+        width: 60vw;
+        margin-top: 2rem;
+        margin-left: 3rem;
+    }
 }
