@@ -13,7 +13,7 @@
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 h1,
@@ -25,15 +25,17 @@ h1,
 }
 
 .about-text {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .profile-image {
-    width: 27vw;
+    width: 25vw;
     height: 70vh;
     margin-left: 5rem;
     border-radius: 4px;
 }
+
+/* Media queries  */
 
 @media screen and (max-width: 425px) {
     .container {
