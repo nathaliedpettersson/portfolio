@@ -30,8 +30,9 @@ h1,
 
 .profile-image {
     width: 27vw;
-    height: 60vh;
+    height: 70vh;
     margin-left: 5rem;
+    border-radius: 4px;
 }
 
 @media screen and (max-width: 425px) {
