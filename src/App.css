@@ -14,80 +14,90 @@ body {
   position: fixed;
   width: 100%;
   z-index: -1;
-  }
+}
 
-  .nav {
-    display: flex;
-    align-items: center;
-    position: sticky;
-    z-index: 2;
-    height: 70px;
-    min-height: 70px;
-    box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
-    color: black;
-    border-bottom: 1px solid white;
-    border-radius: 5px;
-    background-color: white;
-    top: 0;
-  }
+.nav {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  z-index: 2;
+  height: 70px;
+  min-height: 70px;
+  box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
+  color: black;
+  border-bottom: 1px solid white;
+  border-radius: 5px;
+  background-color: white;
+  top: 0;
+}
 
-  .nav-container {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    position: relative;
-  }
+.nav-container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
 
-  .nav-container-actions {
-    display: inline-flex;
-    flex-flow: row nowrap;
-    padding-left: 50px;
-    flex: 1;
-  }
+.nav-container-actions {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  padding-left: 50px;
+  flex: 1;
+}
 
-  .active {
-    border-bottom: 4px solid #d2b48c;
-  }
+.active {
+  border-bottom: 4px solid #d2b48c;
+}
 
-  ul {
-    display: flex;
-    gap: 1rem;
-    font-size: 1rem;
-    list-style: none;
-    padding: 0;
-  }
+ul {
+  display: flex;
+  gap: 1rem;
+  font-size: 1rem;
+  list-style: none;
+  padding: 0;
+}
 
-  li {
-    cursor: pointer;
-  }
+li {
+  cursor: pointer;
+}
 
-  li:hover {
-    color: black;
-    border-bottom: 2px solid #d2b48c;
-  }
+li:hover {
+  color: black;
+  border-bottom: 2px solid #d2b48c;
+}
 
-  .github-logo, .linkedin-logo {
-    width: 2vw;
-    height: 5vh;
-    margin: 1rem;
-  }
+.github-logo,
+.linkedin-logo {
+  width: 2vw;
+  height: 5vh;
+  margin: 1rem;
+}
 
-  section {
-    display: flex;
-    height: 100vh;
-    }
+section {
+  display: flex;
+  height: 100vh;
+}
 
 #about {
   margin: 2rem 0rem 0rem 2rem;
   display: block;
 }
 
-@media screen and (min-width: 375px) and (max-width: 850px) {
-  .github-logo, .linkedin-logo {
-    width: 4vw;
+@media screen and (max-width: 425px) {
+  #about {
+    margin-bottom: 15rem;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+
+  .github-logo,
+  .linkedin-logo {
+    width: 6vw;
+    margin: 0.7rem;
   }
 }
