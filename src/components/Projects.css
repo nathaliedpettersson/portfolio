@@ -1,11 +1,12 @@
 .project-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    flex-direction: row;
 }
 
 .project-card {
     margin: 10px;
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -37,6 +38,8 @@
 .tag:first-child {
     margin-left: 0;
 }
+
+/* Color styling for tags  */
 
 .tag-teal {
     background-color: #47bcd4;
@@ -71,8 +74,11 @@
     padding: 0 1.8rem;
 }
 
+/* Media queries  */
+
 @media screen and (max-width: 425px) {
     .project-container {
         justify-content: center;
+        flex-wrap: wrap;
     }
 }
