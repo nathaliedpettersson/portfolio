@@ -1,9 +1,10 @@
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import type { Container } from 'tsparticles-engine';
 import { Link } from 'react-scroll';
+import type { Container } from 'tsparticles-engine';
 import About from "./components/About";
+// import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import './App.css';
 

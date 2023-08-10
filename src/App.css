@@ -90,6 +90,10 @@ section {
   margin: 2rem 0rem 0rem 2rem;
 }
 
+#contact {
+  justify-content: center;
+}
+
 /* Media queries  */
 
 @media screen and (max-width: 425px) {
