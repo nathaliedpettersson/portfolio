@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.contact-container {
+    display: flex;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    padding: 5rem;
+    border-radius: 10px;
+    background-color: #0047ab;
+    color: #ffffff;
+}
+
+p {
+    margin-top: 0.2rem;
+}
+
+h2 {
+    color: #d2b48c;
+}
+
+.resume {
+    margin-right: 0.5rem;
+    cursor: pointer;
+    color: #ffffff;
+    text-decoration-line: none;
+}
+
+.resume:hover {
+color: #d2b48c;
+}
