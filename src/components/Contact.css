@@ -23,13 +23,18 @@ h2 {
     color: var(--secondary-text-color);
 }
 
+.link,
 .resume {
-    margin-right: 0.5rem;
-    cursor: pointer;
-    color: #ffffff;
     text-decoration-line: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.resume {
+    margin-right: 0.7rem;
 }
 
 .resume:hover {
-color: var(--secondary-text-color);
+    color: var(--secondary-text-color);
+    font-size: 1.1rem;
 }

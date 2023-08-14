@@ -4,7 +4,7 @@ import { loadFull } from "tsparticles";
 import { Link } from 'react-scroll';
 import type { Container } from 'tsparticles-engine';
 import About from "./components/About";
-// import Contact from "./components/Contact";
+import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import './App.css';
 
@@ -104,7 +104,7 @@ const App = () => {
 
         <section id="about"><About /></section>
         <section id="projects"><Projects /></section>
-        <section id="contact"></section>
+        <section id="contact"><Contact /></section>
       </div>
     </div>
   );
