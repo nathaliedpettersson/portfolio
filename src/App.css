@@ -54,7 +54,7 @@ body {
 }
 
 .active {
-  border-bottom: 4px solid #d2b48c;
+  border-bottom: 4px solid var(--secondary-text-color);
 }
 
 ul {
@@ -71,7 +71,7 @@ li {
 
 li:hover {
   color: black;
-  border-bottom: 2px solid #d2b48c;
+  border-bottom: 2px solid var(--secondary-text-color);
 }
 
 .github-logo,

@@ -11,7 +11,7 @@
     height: fit-content;
     padding: 5rem;
     border-radius: 10px;
-    background-color: #0047ab;
+    background-color: var(--primary-text-color);
     color: #ffffff;
 }
 
@@ -20,7 +20,7 @@ p {
 }
 
 h2 {
-    color: #d2b48c;
+    color: var(--secondary-text-color);
 }
 
 .resume {
@@ -31,5 +31,5 @@ h2 {
 }
 
 .resume:hover {
-color: #d2b48c;
+color: var(--secondary-text-color);
 }
