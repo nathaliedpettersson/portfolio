@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.e64ef0b2.css",
-    "main.js": "/static/js/main.c71952fb.js",
+    "main.css": "/static/css/main.a6e3c8c0.css",
+    "main.js": "/static/js/main.9d71cbe0.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/IMG-3162.jpg": "/static/media/IMG-3162.8829e1e38d5ac9cc5eaa.jpg",
+    "static/media/CV-English-Nathalie-Pettersson.pdf": "/static/media/CV-English-Nathalie-Pettersson.6866ef656c901f7802d8.pdf",
+    "static/media/CV-Nathalie-Pettersson.pdf": "/static/media/CV-Nathalie-Pettersson.b9fbf3432baf57cdaad9.pdf",
     "index.html": "/index.html",
-    "main.e64ef0b2.css.map": "/static/css/main.e64ef0b2.css.map",
-    "main.c71952fb.js.map": "/static/js/main.c71952fb.js.map",
+    "main.a6e3c8c0.css.map": "/static/css/main.a6e3c8c0.css.map",
+    "main.9d71cbe0.js.map": "/static/js/main.9d71cbe0.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e64ef0b2.css",
-    "static/js/main.c71952fb.js"
+    "static/css/main.a6e3c8c0.css",
+    "static/js/main.9d71cbe0.js"
   ]
 }
