@@ -18,10 +18,6 @@ const App = () => {
     console.log(container);
   }, []);
 
-  // Import logos as images in a folder later 
-  const githubLogo = "https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png";
-  const linkedinLogo = "https://cdn-icons-png.flaticon.com/512/61/61109.png";
-
   return (
     <div className="App">
       <Particles
@@ -98,8 +94,6 @@ const App = () => {
               </li>
             </ul>
           </nav>
-          <a href="https://github.com/nathaliedpettersson" target="_blank" aria-label="Github account"><img className="github-logo" src={githubLogo} alt="GitHub logo"></img></a>
-          <a href="https://www.linkedin.com/in/nathalie-developer/" target="_blank" aria-label="Linkedin profile"><img className="linkedin-logo" src={linkedinLogo} alt="Linkedin logo"></img></a>
         </header>
 
         <section id="about"><About /></section>
