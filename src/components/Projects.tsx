@@ -1,3 +1,5 @@
+import VercelLogo from '../assets/images/logo-vercel.svg';
+import GithubLogo from '../assets/images/logo-github.svg';
 import './Projects.css';
 
 const Projects = () => {
