@@ -1,6 +1,6 @@
 import VercelLogo from '../assets/images/logo-vercel.svg';
 import GithubLogo from '../assets/images/logo-github.svg';
-import './Projects.css';
+import '../styles/Projects.css';
 
 const Projects = () => {
     const placeholderImage = "https://i0.wp.com/plopdo.com/wp-content/uploads/2021/07/Screenshot-1.png?resize=1210%2C642&ssl=1";

@@ -1,4 +1,4 @@
-import './Contact.css';
+import '../styles/Contact.css';
 import EmailLogo from '../assets/images/logo-email.svg';
 import LinkedinLogo from '../assets/images/logo-linkedin.svg';
 import GithubLogo from '../assets/images/logo-github.svg';
