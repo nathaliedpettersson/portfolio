@@ -101,6 +101,10 @@ section {
   #about {
     margin-bottom: 15rem;
   }
+
+  #contact {
+    margin-top: 55rem;
+  }
 }
 
 @media screen and (max-width: 380px) {
