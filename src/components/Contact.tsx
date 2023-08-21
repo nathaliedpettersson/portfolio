@@ -25,6 +25,7 @@ const Contact = () => {
                     <a className="link" href={githubLink} target="_blank" aria-label="GitHuB"><img src={GithubLogo} /></a>
                 </div>
                 <div className="contact-card">
+                    <p className="contact-card-text">Download CV</p>
                     <a className="resume" href={SwedishResume} target="_blank" aria-label="View swedish resume"><img src={ResumeLogo} /></a>
                 </div>
                 <div className="divider"></div>
