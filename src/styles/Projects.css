@@ -81,6 +81,11 @@
     width: 30px;
 }
 
+.project-card-content .logo img:hover {
+    transition: 0.7s;
+    transform: scale(1.5);
+}
+
 .project-card-content .logo:last-child {
     margin-left: 11.175rem;
 }
@@ -94,6 +99,6 @@
     }
 
     .project-card {
-        height: 70vh;
+        height:fit-content;
     }
 }

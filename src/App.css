@@ -46,7 +46,7 @@ body {
 .nav-container-actions {
   display: inline-flex;
   flex-flow: row nowrap;
-  padding-left: 50px;
+  padding-left: 35px;
   flex: 1;
 }
 
@@ -103,7 +103,7 @@ section {
   }
 
   #contact {
-    margin-top: 75rem;
+    margin-top: 90rem;
   }
 }
 
