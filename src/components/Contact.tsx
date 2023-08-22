@@ -22,7 +22,7 @@ const Contact = () => {
                     <a className="link" href={linkedinLink} target="_blank" aria-label="Linkedin"><img src={LinkedinLogo} /></a>
                 </div>
                 <div className="contact-card">
-                    <a className="link" href={githubLink} target="_blank" aria-label="GitHuB"><img src={GithubLogo} /></a>
+                    <a className="link" href={githubLink} target="_blank" aria-label="GitHub"><img src={GithubLogo} /></a>
                 </div>
                 <div className="contact-card">
                     <p className="contact-card-text">Download CV</p>
