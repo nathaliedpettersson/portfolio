@@ -5,10 +5,6 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-.App {
-  overflow: hidden;
-}
-
 .wrapper {
   z-index: 1;
   font-weight: 300;
@@ -29,7 +25,7 @@ body {
   height: 70px;
   min-height: 70px;
   box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
-  color: black;
+  color: var(--complimentary-text-color);
   border-bottom: 1px solid white;
   border-radius: 5px;
   background-color: white;
@@ -55,7 +51,7 @@ body {
 }
 
 .active {
-  border-bottom: 4px solid var(--secondary-text-color);
+  font-weight: bold;
 }
 
 ul {
@@ -71,8 +67,7 @@ li {
 }
 
 li:hover {
-  color: black;
-  border-bottom: 2px solid var(--secondary-text-color);
+  font-weight: bold;
 }
 
 .github-logo,
@@ -98,6 +93,11 @@ section {
 /* Media queries  */
 
 @media screen and (max-width: 425px) {
+
+.nav-container-actions {
+  padding-left: 34px;
+}
+
   #about {
     margin-bottom: 15rem;
   }

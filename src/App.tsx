@@ -54,7 +54,7 @@ const App = () => {
               animation: {
                 enable: true,
                 minimumValue: 0.5,
-                speed: 1,
+                speed: 1.2,
                 sync: false,
               },
               random: {
