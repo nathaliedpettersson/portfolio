@@ -18,6 +18,8 @@ const Projects = () => {
                 </div>
                 <div className="project-card-content">
                     <h4>Lorem ipsum project about lorem ipsum</h4>
+                    <a className="logo" href="#" aria-label="" target="_blank"><img src={VercelLogo} /></a> 
+                <a className="logo" href="#" aria-label="" target="_blank"><img src={GithubLogo} /></a> 
                 </div>
             </div>
             <div className="project-card">
@@ -30,6 +32,8 @@ const Projects = () => {
                 </div>
                 <div className="project-card-content">
                     <h4>Lorem ipsum project about lorem ipsum</h4>
+                    <a className="logo" href="#" aria-label="" target="_blank"><img src={VercelLogo} /></a> 
+                <a className="logo" href="#" aria-label="" target="_blank"><img src={GithubLogo} /></a> 
                 </div>
             </div>
             <div className="project-card">
@@ -41,6 +45,8 @@ const Projects = () => {
                 </div>
                 <div className="project-card-content">
                     <h4>Lorem ipsum project about lorem ipsum</h4>
+                    <a className="logo" href="#" aria-label="" target="_blank"><img src={VercelLogo} /></a> 
+                <a className="logo" href="#" aria-label="" target="_blank"><img src={GithubLogo} /></a> 
                 </div>
             </div>
             <div className="project-card">
@@ -52,6 +58,8 @@ const Projects = () => {
                 </div>
                 <div className="project-card-content">
                     <h4>Lorem ipsum project about lorem ipsum</h4>
+                    <a className="logo" href="#" aria-label="" target="_blank"><img src={VercelLogo} /></a> 
+                <a className="logo" href="#" aria-label="" target="_blank"><img src={GithubLogo} /></a> 
                 </div>
             </div>
 

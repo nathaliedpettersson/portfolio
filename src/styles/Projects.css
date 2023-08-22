@@ -71,7 +71,18 @@
 
 .project-card-content {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     padding: 0 1.8rem;
+}
+
+.project-card-content .logo img {
+    height: 40px;
+    width: 30px;
+}
+
+.project-card-content .logo:last-child {
+    margin-left: 11.175rem;
 }
 
 /* Media queries  */
@@ -80,5 +91,9 @@
     .project-container {
         justify-content: center;
         flex-wrap: wrap;
+    }
+
+    .project-card {
+        height: 70vh;
     }
 }
