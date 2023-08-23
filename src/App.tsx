@@ -30,7 +30,7 @@ const App = () => {
           fpsLimit: 20,
           particles: {
             shape: {
-              type: "polygon",
+              type: ["polygon", "circle", "edge"],
             },
             size: {
               random: {
@@ -40,7 +40,7 @@ const App = () => {
               value: 1.4,
             },
             color: {
-              value: "d2b48c",
+              value: ["d2b48c", "d2c9be"],
             },
             number: {
               density: {
