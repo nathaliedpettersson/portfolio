@@ -14,6 +14,11 @@
     height: 60vh;
 }
 
+.project-card:hover {
+    transition: 1s;
+    transform: scale(1.1);
+}
+
 .project-card-image img {
     width: 100%;
     object-fit: cover;
@@ -102,6 +107,6 @@
     }
 
     .project-card {
-        height:fit-content;
+        height: fit-content;
     }
 }
