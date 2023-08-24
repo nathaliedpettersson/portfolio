@@ -100,12 +100,16 @@ section {
   padding-left: 34px;
 }
 
+ul {
+  font-size: 0.7rem;
+}
+
   #about {
     margin-bottom: 15rem;
   }
 
   #contact {
-    margin-top: 85rem;
+    margin-top: 75rem;
   }
 }
 
