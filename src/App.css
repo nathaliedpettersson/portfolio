@@ -101,15 +101,15 @@ section {
 }
 
 ul, .link-github {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
   #about {
-    margin-bottom: 15rem;
+    margin-bottom: 12rem;
   }
 
   #contact {
-    margin-top: 70rem;
+    margin-top: 65rem;
   }
 }
 
