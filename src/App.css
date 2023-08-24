@@ -100,8 +100,8 @@ section {
   padding-left: 34px;
 }
 
-ul {
-  font-size: 0.7rem;
+ul, .link-github {
+  font-size: 0.9rem;
 }
 
   #about {
@@ -109,7 +109,7 @@ ul {
   }
 
   #contact {
-    margin-top: 75rem;
+    margin-top: 70rem;
   }
 }
 
