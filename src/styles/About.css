@@ -68,7 +68,8 @@ h1,
     }
 
     .profile-image {
-        width: 60vw;
+        width: 15vw;
+        height: 30vh;
         margin-top: 2rem;
         margin-left: 3rem;
     }

@@ -14,8 +14,11 @@ const About = () => {
             <div className="about-image">
                 <img className="profile-image" src={ProfileImage} alt="Profile image" />
             </div>
+          
         </div>
     )
 }
 
 export default About;
+
+
