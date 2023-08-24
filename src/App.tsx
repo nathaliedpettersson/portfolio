@@ -25,7 +25,7 @@ const App = () => {
         loaded={particlesLoaded}
         options={{
           background: {
-            color: "ffffff",
+            color: "eeeeee",
           },
           fpsLimit: 20,
           particles: {
@@ -40,7 +40,7 @@ const App = () => {
               value: 1.4,
             },
             color: {
-              value: ["d2b48c", "d2c9be"],
+              value: "000000",
             },
             number: {
               density: {
@@ -48,13 +48,13 @@ const App = () => {
                 area: 1080,
               },
               limit: 0,
-              value: 800,
+              value: 600,
             },
             opacity: {
               animation: {
                 enable: true,
                 minimumValue: 0.5,
-                speed: 1.2,
+                speed: 0.7,
                 sync: false,
               },
               random: {
@@ -93,6 +93,7 @@ const App = () => {
               </li>
             </ul>
           </nav>
+          <a className="link-github" href="https://github.com/nathaliedpettersson" target="_blank">Take me to GitHub 🚀</a>
         </header>
 
         <section id="about"><About /></section>

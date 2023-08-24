@@ -25,11 +25,12 @@ body {
   height: 70px;
   min-height: 70px;
   box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
-  color: var(--complimentary-text-color);
+  color: var(--secondary-text-color);
   border-bottom: 1px solid white;
   border-radius: 5px;
   background-color: white;
   top: 0;
+  font-weight: bold;
 }
 
 .nav-container {
@@ -51,7 +52,7 @@ body {
 }
 
 .active {
-  font-weight: bold;
+  border-bottom: 1px solid var(--secondary-text-color);
 }
 
 ul {
@@ -70,11 +71,12 @@ li:hover {
   font-weight: bold;
 }
 
-.github-logo,
-.linkedin-logo {
-  width: 2vw;
-  height: 5vh;
-  margin: 1rem;
+.link-github {
+  color: #000000;
+  text-decoration: none;
+  margin-right: 1rem;
+  margin-left: 0.5rem;
+  font-weight: 100;
 }
 
 section {
@@ -110,14 +112,5 @@ section {
 @media screen and (max-width: 380px) {
   #about {
     margin-bottom: 18rem;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 425px) {
-
-  .github-logo,
-  .linkedin-logo {
-    width: 6vw;
-    margin: 0.7rem;
   }
 }
