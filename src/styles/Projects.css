@@ -15,8 +15,7 @@
 }
 
 .project-card:hover {
-    transition: 1s;
-    transform: scale(1.1);
+    background-color: #eeeeee;
 }
 
 .project-card-image img {

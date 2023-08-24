@@ -31,7 +31,7 @@ const Projects = () => {
                     <span className="tag tag-black">FIREBASE</span>
                 </div>
                 <div className="project-card-content">
-                    <h4>GRIT - Chat Application 💬 ☺</h4>
+                    <h4>GRIT - Chat Application 💬 👋</h4>
                     <a className="logo" href={vercelLinkCA} aria-label="Link Vercel" target="_blank"><img src={VercelLogo} /></a> 
                 <a className="logo" href={githubLinkCA} aria-label="Link GitHub Code" target="_blank"><img src={GithubLogo} /></a> 
                 </div>
@@ -81,7 +81,6 @@ const Projects = () => {
                 <a className="logo" href={githubLinkFA} aria-label="Link GitHub Code" target="_blank"><img src={GithubLogo} /></a> 
                 </div>
             </div>
-
         </div>
     )
 };
