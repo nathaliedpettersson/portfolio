@@ -4,6 +4,7 @@ import DogApiImage from '../assets/images/dog-directory.png';
 import FridgeAppImage from '../assets/images/fridge-app.png';
 import VercelLogo from '../assets/images/logo-vercel.svg';
 import GithubLogo from '../assets/images/logo-github.svg';
+
 import '../styles/Projects.css';
 
 const Projects = () => {
@@ -32,8 +33,8 @@ const Projects = () => {
                 </div>
                 <div className="project-card-content">
                     <h4>GRIT - Chat Application 💬 👋</h4>
-                    <a className="logo" href={vercelLinkCA} aria-label="Link Vercel" target="_blank"><img src={VercelLogo} /></a> 
-                <a className="logo" href={githubLinkCA} aria-label="Link GitHub Code" target="_blank"><img src={GithubLogo} /></a> 
+                    <a className="logo" href={vercelLinkCA} aria-label="Link Vercel" target="_blank"><img src={VercelLogo} /></a>
+                    <a className="logo" href={githubLinkCA} aria-label="Link GitHub Code" target="_blank"><img src={GithubLogo} /></a>
                 </div>
             </div>
             <div className="project-card">
@@ -48,8 +49,8 @@ const Projects = () => {
                 </div>
                 <div className="project-card-content">
                     <h4>Chuck Norris Joke Generator</h4>
-                    <a className="logo" href={vercelLinkCN} aria-label="Link Vercel" target="_blank"><img src={VercelLogo} /></a> 
-                <a className="logo" href={githubLinkCN} aria-label="Link GitHub Code" target="_blank"><img src={GithubLogo} /></a> 
+                    <a className="logo" href={vercelLinkCN} aria-label="Link Vercel" target="_blank"><img src={VercelLogo} /></a>
+                    <a className="logo" href={githubLinkCN} aria-label="Link GitHub Code" target="_blank"><img src={GithubLogo} /></a>
                 </div>
             </div>
             <div className="project-card">
@@ -63,8 +64,8 @@ const Projects = () => {
                 </div>
                 <div className="project-card-content">
                     <h4>Dog Directory API with testing</h4>
-                    <a className="logo" href={vercelLinkDD} aria-label="Link Vercel" target="_blank"><img src={VercelLogo} /></a> 
-                <a className="logo" href={githubLinkDD} aria-label="Link GitHub Code" target="_blank"><img src={GithubLogo} /></a> 
+                    <a className="logo" href={vercelLinkDD} aria-label="Link Vercel" target="_blank"><img src={VercelLogo} /></a>
+                    <a className="logo" href={githubLinkDD} aria-label="Link GitHub Code" target="_blank"><img src={GithubLogo} /></a>
                 </div>
             </div>
             <div className="project-card">
@@ -77,8 +78,8 @@ const Projects = () => {
                 </div>
                 <div className="project-card-content">
                     <h4>GRIT - My Fridge Application</h4>
-                    <a className="logo" href={vercelLinkFA} aria-label="Link Vercel" target="_blank"><img src={VercelLogo} /></a> 
-                <a className="logo" href={githubLinkFA} aria-label="Link GitHub Code" target="_blank"><img src={GithubLogo} /></a> 
+                    <a className="logo" href={vercelLinkFA} aria-label="Link Vercel" target="_blank"><img src={VercelLogo} /></a>
+                    <a className="logo" href={githubLinkFA} aria-label="Link GitHub Code" target="_blank"><img src={GithubLogo} /></a>
                 </div>
             </div>
         </div>

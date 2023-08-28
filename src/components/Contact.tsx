@@ -1,9 +1,10 @@
-import '../styles/Contact.css';
 import EmailLogo from '../assets/images/logo-email.svg';
 import LinkedinLogo from '../assets/images/logo-linkedin.svg';
 import GithubLogo from '../assets/images/logo-github.svg';
 import ResumeLogo from '../assets/images/logo-resume.svg';
 import SwedishResume from '../assets/images/CV-Nathalie-Pettersson.pdf';
+
+import '../styles/Contact.css';
 
 const Contact = () => {
 
