@@ -1,7 +1,7 @@
 import ChatAppImage from '../assets/images/chat-app.png';
 import ChuckNorrisImage from '../assets/images/chuck-norris.png';
 import DogApiImage from '../assets/images/dog-directory.png';
-import FridgeAppImage from '../assets/images/fridge-app.png';
+import ReactCinemaImage from '../assets/images/react-cinema.png';
 import VercelLogo from '../assets/images/logo-vercel.svg';
 import GithubLogo from '../assets/images/logo-github.svg';
 
@@ -18,8 +18,8 @@ const Projects = () => {
     const vercelLinkDD = "https://dog-directory-api-with-jest.vercel.app/"
     const githubLinkDD = "https://github.com/nathaliedpettersson/DogDirectoryAPI-with-Jest"
 
-    const vercelLinkFA = "https://fridge-app-delta.vercel.app/"
-    const githubLinkFA = "https://github.com/nathaliedpettersson/Fridge-App"
+    const vercelLinkRC = "https://react-cinema-blue.vercel.app/";
+    const githubLinkRC = "https://github.com/nathaliedpettersson/Slutprojekt-JS3-ReactCinema";
 
     return (
         <div className="project-container">
@@ -70,16 +70,17 @@ const Projects = () => {
             </div>
             <div className="project-card">
                 <div className="project-card-image">
-                    <img src={FridgeAppImage}></img>
+                    <img src={ReactCinemaImage}></img>
                 </div>
                 <div className="project-card-tag">
                     <span className="tag tag-coral">REACT</span>
                     <span className="tag tag-pink">JAVASCRIPT</span>
+                    <span className="tag tag-navy">LOCAL STORAGE</span>
                 </div>
                 <div className="project-card-content">
-                    <h4>GRIT - My Fridge Application</h4>
-                    <a className="logo" href={vercelLinkFA} aria-label="Link Vercel" target="_blank"><img src={VercelLogo} /></a>
-                    <a className="logo" href={githubLinkFA} aria-label="Link GitHub Code" target="_blank"><img src={GithubLogo} /></a>
+                    <h4>GRIT - My Movie Cinema App</h4>
+                    <a className="logo" href={vercelLinkRC} aria-label="Link Vercel" target="_blank"><img src={VercelLogo} /></a>
+                    <a className="logo" href={githubLinkRC} aria-label="Link GitHub Code" target="_blank"><img src={GithubLogo} /></a>
                 </div>
             </div>
         </div>
