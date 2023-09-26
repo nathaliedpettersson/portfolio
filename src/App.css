@@ -109,7 +109,7 @@ ul, .link-github {
   }
 
   #contact {
-    margin-top: 70rem;
+    margin-top: 72rem;
   }
 }
 
@@ -117,4 +117,10 @@ ul, .link-github {
   #about {
     margin-bottom: 18rem;
   }
+}
+
+@media screen and (min-width: 1280px) {
+    #projects {
+      justify-content: center;
+    }
 }

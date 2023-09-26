@@ -1,3 +1,5 @@
+// This is a work in progress and file is not in use yet
+
 import ProjectContent from './ProjectContent';
 import '../styles/Projects.css';
 
