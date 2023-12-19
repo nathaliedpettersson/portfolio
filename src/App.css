@@ -100,8 +100,12 @@ section {
   padding-left: 34px;
 }
 
-ul, .link-github {
-  font-size: 0.8rem;
+ul, li, .link-github {
+  font-size: 1rem;
+}
+
+ul {
+  gap: 0.7rem;
 }
 
   #about {
