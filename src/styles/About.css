@@ -45,11 +45,11 @@ h1,
 }
 
 .profile-image {
-    width: 22vw;
+    width: 25vw;
     height: 52vh;
     margin-top: 4rem;
     margin-left: 14rem;
-    border-radius: 4px;
+    border-radius: 3px;
 }
 
 /* Media queries  */
