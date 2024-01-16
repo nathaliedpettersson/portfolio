@@ -93,7 +93,7 @@ const App = () => {
               </li>
             </ul>
           </nav>
-          <a className="link-github" href="https://github.com/nathaliedpettersson" target="_blank" aria-label="Link to Github">More on GitHub 🚀</a>
+          <a className="link-github" href="https://github.com/nathaliedpettersson" target="_blank" aria-label="Link to Github">Go to GitHub</a>
         </header>
         <section id="about"><About /></section>
         <section id="projects"><Projects /></section>
